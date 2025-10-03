@@ -25,26 +25,14 @@ A simple Python project to remove the background from images using the rembg lib
 - [Pillow (PIL)](https://github.com/python-pillow/Pillow)
 
 ## Project Working
+Project Working
 
-This project detects objects **based on their color** using your webcam in real-time.  
+The project works by using the rembg library, which is built on deep learning models trained to separate foreground objects from the background in an image.
 
-1. **Set Color**  
-   - Open the `set_colour` module and define the target color by updating the color code (RGB/HSV).  
-
-2. **Live Camera Input**  
-   - The program uses your webcam to capture video frames continuously.  
-
-3. **Color Detection**  
-   - Each frame is analyzed to find pixels matching the target color.  
-   - A mask is applied to isolate the colored regions.  
-
-4. **Object Highlighting**  
-   - Detected objects are outlined with bounding boxes or highlighted in the frame.  
-
-5. **Real-Time Output**  
-   - The processed video is displayed live with the detected colored objects.  
-   - You can change the target color anytime by updating the `getcolour` module.
-
+- You provide an input image (JPEG/PNG).
+- The model detects the main subject (person/object).
+- The background is automatically removed, leaving only the subject.
+- The output is saved as a transparent PNG image.
 
 ## Installation
 
