@@ -21,8 +21,8 @@ A simple Python project to remove the background from images using the rembg lib
 
 - Python 3.9+
 - [rembg](https://github.com/danielgatis/rembg)
-- NumPy
-- Pillow (PIL)
+- [NumPy](https://github.com/numpy/numpy)
+- [Pillow (PIL)](https://github.com/python-pillow/Pillow)
 
 ## Project Working
 
@@ -48,15 +48,15 @@ This project detects objects **based on their color** using your webcam in real-
 
 ## Installation
 
- 1. Clone the repository: git clone https://github.com/Bharath8071/Colour_Detector_Prj.git
- 2. Navigate to the project directory: `cd Colour_Detector_Prj`
+ 1. Clone the repository: git clone https://github.com/Bharath8071/bg-remove-python-prj.git
+ 2. Navigate to the project directory: `cd bg-remove-python-prj`
 
 
 ## Future Enhancements
 
--Expand color dataset (more shades, custom colors)
--Build a GUI or web interface
--Support clustering for dominant color detection
+- Add batch background removal for folders of images
+- Build a simple GUI/web app for drag-and-drop image processing
+- Support video background removal
 
 ## License
 
